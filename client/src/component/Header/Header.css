@@ -1,0 +1,17 @@
+.header {
+  font-size: 1.5em;
+  padding: 15px;
+  background-color: #fff;
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07); */
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.65);
+}
+.header nav a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 30px;
+}
+.header nav a:hover {
+  background-color: black;
+  color: rgb(245, 227, 227);
+  border-radius: 3px;
+}
