@@ -31,7 +31,7 @@ const AddProduct = () => {
 
   return (
     <div>
-      <h1>Please input your product details</h1>
+      <h1 class="text-secondary mt-4">Please input your product details</h1>
       <form onSubmit={handleSubmit}>
         {/* <label for="fname">Product Name</label> */}
         <input type="text" ref={nameRef} placeholder="Product Name.." />
